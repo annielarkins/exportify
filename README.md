@@ -1,13 +1,17 @@
-[![Build Status](http://img.shields.io/travis/pavelkomarov/exportify.svg?style=flat)](https://travis-ci.org/pavelkomarov/exportify)
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/pavelkomarov/exportify/master)
+# Welcome!
+I have always loved finding new musics and learning more about my tastes. As a computer science major, I have been looking for a project to develop my skills. Analyzing my Spotify track trends seemed like the perfect combination. I forked the repository from [pavelkomarov](https://github.com/annielarkins/exportify/blob/master/README.md) who built off the [Exportify](https://github.com/watsonbox/exportify) project from watsonbox. 
 
-This is a hard fork of [the original Exportify repo](https://github.com/watsonbox/exportify). I've simplified and updated the code, gotten rid of the outdated tests, set up automatic deployment to github pages, fixed a parsing bug, enhanced the set of features, added logout functionality, and provided an ipython notebook to do something interesting with the data.
+My goal is to develop my own analysis to learn more about data visualization and eventually machine learning. I am directly using pavelkomarov's code to export csv files from Spotify. 
 
-<a href="https://pavelkomarov.com/exportify/app"><img src="screenshot.png"/></a>
+Stay tuned for updates!
 
-Export your Spotify playlists for analysis or just safekeeping: [https://pavelkomarov.com/exportify/app](https://pavelkomarov.com/exportify/app)
+# To Do
+- Add Skills Learned section to read me
+- Replace original read me
+- Add Analysis Updates section
+- Sort out code I don't need
 
-### Export Format
+# Export Format
 
 Track data is exported in [CSV](http://en.wikipedia.org/wiki/Comma-separated_values) format with the following fields:
 
@@ -34,34 +38,3 @@ Track data is exported in [CSV](http://en.wikipedia.org/wiki/Comma-separated_val
 - Valence
 - Tempo
 - Time Signature
-
-### Analysis
-
-Run the [Jupyter Notebook](https://github.com/pavelkomarov/exportify/blob/master/taste_analysis.ipynb) or [launch it in Binder](https://mybinder.org/v2/gh/pavelkomarov/exportify/master) to get a variety of plots about the music in a playlist including:
-
-- Most common artists
-- Most common genres
-- Release date distribution
-- Popularity distribution
-- Comparisons of Acousticness, Valence, etc. to normal
-- Time signatures and keys
-- All songs plotted in 2D to indicate relative similarities
-
-
-### Development
-
-Developers wishing to make changes to Exportify should use a local web server. For example, using Python (in the Exportify repo dir):
-
-```bash
-python -m http.server
-```
-
-Then open [http://localhost:8000/app](http://localhost:8000/app).
-
-### Contributing
-
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -m "message"`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
