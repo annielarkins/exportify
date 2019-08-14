@@ -6,10 +6,14 @@ My goal is to develop my own analysis to learn more about data visualization and
 Stay tuned for updates!
 
 # To Do
-- Add Skills Learned section to read me
-- Replace original read me
-- Add Analysis Updates section
-- Sort out code I don't need
+- Start a notebook
+- Clean up webpage
+
+# Skills Learned
+- Markdown
+
+# Analysis Updates
+- The notebook currently does not exist...
 
 # Export Format
 
